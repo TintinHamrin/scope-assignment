@@ -16,7 +16,7 @@ const FETCH_COMPANY = gql`
         klaviyo_api_key
         hubspot_api_key
         hubspot_active
-        collaboration_cost_currency
+        collaboration_cost_currencyp
       }
       success
       errors
