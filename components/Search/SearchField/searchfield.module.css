@@ -1,3 +1,34 @@
+.wrapperCard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  border: 0.5px solid black;
+  background-color: bisque;
+}
+
 .sectionCard {
   margin-bottom: 1rem;
+  border: 0.5px solid black;
+  box-shadow: 1rem;
+}
+
+.tabList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabPanel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardActions {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
