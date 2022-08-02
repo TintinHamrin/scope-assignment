@@ -22,6 +22,12 @@
   justify-content: space-between;
 }
 
+.tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .cardActions {
   display: flex;
   flex-direction: column;
